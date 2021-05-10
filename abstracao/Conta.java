@@ -13,8 +13,8 @@ public abstract class Conta {
 
         saldo -= valor;
     }
-    public void imprimeSaldo(){
-
-        System.out.println(saldo);
+    public float getSaldo(){
+        return saldo;
     }
+    public abstract void imprimeSaldo();
 }

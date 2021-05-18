@@ -48,6 +48,7 @@ public class Jogador {
     public int getIdadeJogador(){
         return idade;
     }
+    /*
     public int aposentar;
 
     public void aposentadoria(){
@@ -61,7 +62,7 @@ public class Jogador {
     }
     public int getAposentadoria(){
         return aposentar;
-    }
+    }*/
 
     public void dadosJogador(){
         
@@ -70,7 +71,7 @@ public class Jogador {
         System.out.println("posicao" + getPosicao());
         System.out.println("Ano de nascimento " + getAnoNascimento());
         System.out.println("Idade: " + getIdadeJogador());
-        System.out.println("Tempo para aposentadoria: " + getAposentadoria());
+       // System.out.println("Tempo para aposentadoria: " + getAposentadoria());
         System.out.println("Nacionalidade: " + getNacionalidade());
         System.out.println("Altura: " + getAltura());
         System.out.println("Peso: " + getPeso());

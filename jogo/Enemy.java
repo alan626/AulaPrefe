@@ -1,6 +1,12 @@
 public class Enemy extends Player {
     
-    private float energy;
-    private float power;
+    public void  recebeGolpe(String ataque){
 
+
+    }
+
+    public contraAtaca(){
+
+
+    }
 }

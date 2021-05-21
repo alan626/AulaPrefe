@@ -1,12 +1,12 @@
-public class Enemy extends Player {
+public class Enemy extends Player{  {
     
     public void  recebeGolpe(String ataque){
 
 
     }
 
-    public contraAtaca(){
+    public String contraAtaca(String ataque){
 
-
+        return
     }
 }

@@ -1,7 +1,7 @@
 public interface Fight {
     
-    public abstract String  recebeGolpe(String ataque);
-    public abstract void contraAtaca(String ataque);
+    public abstract void recebeGolpe(String ataque);
+    public abstract String contraAtaca(String ataque);
 
     
 }
